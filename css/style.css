@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    scroll-behavior: smooth;
+}
+
+/* ===================
+mobile header section start
+===================== */
+.m-header {
+    position: fixed;
+    padding: 20px;
+    display: none;
+    background: var(--white);
+    z-index: 999;
+    width: 100%;
+}
+
+.m-header .container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.m-header .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.m-header .logo img {
+    max-width: 100%;
+}
+
+.m-header .menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 2;
+    display: none;
+}
+
+.menu.d-menu {
+    display: block;
+    transition: 0.3s all ease-in-out;
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    -ms-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+}
+
+.menu-bar {
+    color: var(--black);
+    font-size: 20px;
+}
+
+.cross-bar {
+    position: absolute;
+    top: 25px;
+    right: 40px;
+    color: var(--white);
+    font-size: 30px;
+    display: none;
+    position: fixed;
+}
+
+.cross-bar.d-crossbar {
+    display: block;
+    z-index: 999;
+}
+
+.m-header .menu ul {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    list-style: none;
+}
+
+.m-header .menu li {
+    padding-right: 0;
+    margin-bottom: 50px;
+}
+
+.m-header .menu li a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.m-header .menu a:hover {
+    color: var(--blue);
+}
+
+.m-header .menu li:last-child {
+    margin-bottom: 0;
+}
+
+/* ===================
+header section start
+===================== */
+.header {
+    position: relative;
+    margin-top: 10px;
+}
+
+.header .container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.header .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .logo img {
+    max-width: 100%;
+}
+
+.header .menu ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.header .menu li {
+    font-size: 20px;
+    list-style: none;
+}
+
+.header .menu a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.header .menu a:hover {
+    color: var(--blue);
+}
+
+.header .btn {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header .icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100px;
+}
+
+.header .icon a {
+    text-align: center;
+}
+
+.header .icon img {
+    max-width: 50%;
+}
+
+.header .icon a:hover {
+    transform: translateY(-20%);
+    -webkit-transform: translateY(-20%);
+    -moz-transform: translateY(-20%);
+    -ms-transform: translateY(-20%);
+    -o-transform: translateY(-20%);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+/* ===================
+banner section start
+===================== */
+.banner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url(../images/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.banner .container {
+    max-width: 84%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.banner .txt span,
+.banner .txt .first {
+    margin: 20px 0;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--white);
+}
+
+.banner .btn {
+    text-align: center;
+}
+
+.banner .btn1 {
+    color: var(--white);
+}
+
+/* ===================
+about us section start
+===================== */
+.about {
+    position: relative;
+    padding: 30px 0;
+}
+
+.about .container {
+    max-width: 84%;
+    margin: 0 auto;
+}
+
+.about h2 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.about .row {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.about .box {
+    position: relative;
+    margin-top: 10px;
+    text-align: center;
+    background-color: var(--white);
+    border: 1px solid var(--black);
+    box-shadow: 5px 0px 9px 5px rgba(20, 20, 20, 0.4);
+}
+
+.about .box img {
+    max-width: 100%;
+}
+
+.about .txt {
+    padding: 20px;
+}
+
+.about .txt h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.about .txt p {
+    font-size: 16px;
+}
+
+.about .box:hover {
+    transform: translateY(-5%);
+    -webkit-transform: translateY(-5%);
+    -moz-transform: translateY(-5%);
+    -ms-transform: translateY(-5%);
+    -o-transform: translateY(-5%);
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+}
+
+/* ===================
+services section start
+===================== */
+.services {
+    position: relative;
+    background-color: var(--gray);
+    padding: 10px 0;
+}
+
+.services .container {
+    max-width: 84%;
+    margin: 0 auto;
+}
+
+.services .txt-style h2 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.services .row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.services .box {
+    text-align: center;
+    padding: 10px;
+}
+
+.services .box img {
+    max-width: 20%;
+}
+
+.services .box h4 {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.services .box p {
+    font-size: 18px;
+}
+.services .box:hover{
+    transform: translateY(-5%);
+    -webkit-transform: translateY(-5%);
+    -moz-transform: translateY(-5%);
+    -ms-transform: translateY(-5%);
+    -o-transform: translateY(-5%);
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+}

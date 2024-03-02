@@ -1,0 +1,41 @@
+@media (max-width: 990px) {
+
+    /* ===================
+ header section start
+===================== */
+    .header {
+        display: none;
+    }
+
+    .m-header {
+        display: block;
+    }
+
+    /* ===================
+about section start
+===================== */
+    .about .container {
+        flex-wrap: wrap;
+    }
+
+    .about .row {
+        flex-direction: column;
+    }
+
+    .about .box {
+        max-width: 346px;
+    }
+
+    /* ===================
+services section start
+===================== */
+    .services .row {
+        flex-wrap: wrap;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .services .box {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}

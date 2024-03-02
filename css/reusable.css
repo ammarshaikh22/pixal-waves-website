@@ -1,0 +1,165 @@
+:root {
+    --black: black;
+    --white: white;
+    --blue: #3dc4d9;
+    --gray: #dce7e8;
+    --shadow:  rgba(255, 255, 255, 0.5)
+}
+
+.btn1 {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid var(--blue);
+    font-size: 16px;
+    text-align: center;
+    color: var(--black);
+    text-decoration: none;
+}
+
+.btn1:hover {
+    transform: translateY(-20%);
+    background-color: var(--blue);
+    -webkit-transform: translateY(-20%);
+    -moz-transform: translateY(-20%);
+    -ms-transform: translateY(-20%);
+    -o-transform: translateY(-20%);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.first {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.first:first-of-type {
+    /* For increasing performance 
+                         ID/Class should've been used. 
+                         For a small demo 
+                         it's okaish for now */
+    animation: showup 7s infinite;
+}
+
+.first:last-of-type {
+    width: 30px;
+    animation: reveal 7s infinite;
+}
+
+.first:last-of-type span {
+    margin-left: -355px;
+    animation: slidein 7s infinite;
+}
+
+@keyframes showup {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes slidein {
+    0% {
+        margin-left: -800px;
+    }
+
+    20% {
+        margin-left: -800px;
+    }
+
+    35% {
+        margin-left: 0px;
+    }
+
+    100% {
+        margin-left: 0px;
+    }
+}
+
+@keyframes reveal {
+    0% {
+        opacity: 0;
+        width: 0px;
+    }
+
+    20% {
+        opacity: 1;
+        width: 0px;
+    }
+
+    30% {
+        width: 355px;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        width: 355px;
+    }
+}
+
+.style {
+    position: relative;
+    content: "";
+    height: 3px;
+    width: 80px;
+    background-color: var(--blue);
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.style::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    height: 15px;
+    width: 3px;
+    background-color: var(--blue);
+}
+
+.style::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 3px;
+    background-color: var(--blue);
+}
+.txt-style {
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.txt-style::before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    height: 3px;
+    width: 80px;
+    background-color: var(--blue);
+}
