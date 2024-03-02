@@ -206,11 +206,11 @@ banner section start
     z-index: 2;
 }
 
-.banner .txt{
+.banner .txt {
     text-align: center;
     font-size: 40px;
     color: var(--white);
-   margin-bottom: 25px;
+    margin-bottom: 60px;
 }
 
 .banner .btn {
