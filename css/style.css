@@ -267,8 +267,11 @@ about us section start
     margin-bottom: 10px;
 }
 
-.about .txt p {
+.about .txt-style p {
     font-size: 16px;
+    margin: 10px 0;
+    max-width: 50%;
+    margin: 0 auto;
 }
 
 .about .box:hover {
