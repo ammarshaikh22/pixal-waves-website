@@ -205,7 +205,8 @@ banner section start
     position: relative;
     z-index: 2;
 }
-.banner .first{
+
+.banner .first {
     font-size: 30px;
     color: var(--white);
     text-align: center;
@@ -330,7 +331,8 @@ services section start
 .services .box p {
     font-size: 18px;
 }
-.services .box:hover{
+
+.services .box:hover {
     transform: translateY(-5%);
     -webkit-transform: translateY(-5%);
     -moz-transform: translateY(-5%);
