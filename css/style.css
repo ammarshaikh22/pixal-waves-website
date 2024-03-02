@@ -226,7 +226,7 @@ about us section start
 ===================== */
 .about {
     position: relative;
-    padding: 30px 0;
+    padding: 50px 0;
 }
 
 .about .container {
@@ -295,7 +295,7 @@ services section start
 .services {
     position: relative;
     background-color: var(--gray);
-    padding: 10px 0;
+    padding: 50px 0;
 }
 
 .services .container {
@@ -344,4 +344,37 @@ services section start
     -moz-transition: 0.5s ease-in-out;
     -ms-transition: 0.5s ease-in-out;
     -o-transition: 0.5s ease-in-out;
+}
+
+/* ===================
+contact section start
+===================== */
+.contact {
+    position: relative;
+    padding: 50px;
+}
+
+.contact .container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.contact .form h3 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.contact .box {
+    text-align: start;
+}
+
+.contact input {
+    width: 250px;
+    height: 35px;
+    margin-bottom: 20px;
+}
+
+.contact textarea {
+    resize: none;
+    margin-bottom: 20px;
 }
