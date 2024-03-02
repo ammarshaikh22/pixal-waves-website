@@ -205,14 +205,10 @@ banner section start
     position: relative;
     z-index: 2;
 }
-
-.banner .txt span,
-.banner .txt .first {
-    margin: 20px 0;
-    font-size: 50px;
-    font-weight: bold;
-    text-align: center;
+.banner .first{
+    font-size: 30px;
     color: var(--white);
+    text-align: center;
 }
 
 .banner .btn {

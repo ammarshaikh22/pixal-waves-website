@@ -12,6 +12,17 @@
     }
 
     /* ===================
+banner section start
+===================== */
+    .banner .container{
+        max-width: 100%;
+    }
+    .banner .first h1,
+    .banner .first{
+        font-size: 50px;
+        white-space: pre-wrap;
+    }
+    /* ===================
 about section start
 ===================== */
     .about .container {
