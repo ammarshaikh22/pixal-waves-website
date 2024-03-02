@@ -85,3 +85,31 @@ h1 {
     color: var(--white);
     text-align: center;
 }
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100px;
+}
+
+.icon a {
+    text-align: center;
+}
+
+.icon img {
+    max-width: 50%;
+}
+
+.icon a:hover {
+    transform: translateY(-20%);
+    -webkit-transform: translateY(-20%);
+    -moz-transform: translateY(-20%);
+    -ms-transform: translateY(-20%);
+    -o-transform: translateY(-20%);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}

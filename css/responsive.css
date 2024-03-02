@@ -51,4 +51,11 @@ services section start
         margin: 0 auto;
     }
 
+    /* ===================
+contact section start
+===================== */
+    .contact  input {
+        width: 200px;
+    }
+    
 }

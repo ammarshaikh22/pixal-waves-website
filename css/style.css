@@ -148,34 +148,6 @@ header section start
     gap: 30px;
 }
 
-.header .icon {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 100px;
-}
-
-.header .icon a {
-    text-align: center;
-}
-
-.header .icon img {
-    max-width: 50%;
-}
-
-.header .icon a:hover {
-    transform: translateY(-20%);
-    -webkit-transform: translateY(-20%);
-    -moz-transform: translateY(-20%);
-    -ms-transform: translateY(-20%);
-    -o-transform: translateY(-20%);
-    transition: 0.5s;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -o-transition: 0.5s;
-}
-
 /* ===================
 banner section start
 ===================== */
@@ -194,6 +166,9 @@ banner section start
 .banner::after {
     position: absolute;
     content: '';
+    top: 0;
+    left: 0;
+    right: 0;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
@@ -253,6 +228,8 @@ about us section start
     background-color: var(--white);
     border: 1px solid var(--black);
     box-shadow: 5px 0px 9px 5px rgba(20, 20, 20, 0.4);
+    max-width: 337px;
+    height: 453px;
 }
 
 .about .box img {
@@ -352,7 +329,9 @@ contact section start
 .contact {
     position: relative;
     padding: 50px;
+    background-color: var(--black);
 }
+
 
 .contact .container {
     max-width: 80%;
@@ -360,6 +339,7 @@ contact section start
 }
 
 .contact .form h3 {
+    color: var(--white);
     font-size: 35px;
     margin-bottom: 30px;
 }
@@ -377,4 +357,74 @@ contact section start
 .contact textarea {
     resize: none;
     margin-bottom: 20px;
+}
+
+.contact .btn1 {
+    color: var(--white);
+}
+
+/* ===================
+footer section start
+===================== */
+.footer {
+    position: relative;
+    padding: 50px 0;
+}
+
+.footer .container {
+    max-width: 84%;
+    margin: 0 auto;
+}
+
+.footer .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+.footer .txt h5 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.footer .txt p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer .menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+    gap: 20px;
+}
+
+.footer .menu li a {
+    color: var(--black);
+    text-decoration: none;
+}
+
+.footer .menu li a:hover {
+    color: var(--blue);
+}
+
+/* ===================
+last section start
+===================== */
+.last {
+    position: relative;
+}
+
+.last .container {
+    max-width: 84%;
+    margin: 0 auto;
+}
+
+.last .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
