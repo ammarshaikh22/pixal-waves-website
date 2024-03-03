@@ -89,7 +89,6 @@ h1 {
 .icon {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     max-width: 100px;
 }
 

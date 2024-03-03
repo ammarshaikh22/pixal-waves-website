@@ -124,7 +124,6 @@ header section start
 
 .header .menu ul {
     display: flex;
-    align-items: center;
     gap: 50px;
 }
 
@@ -144,7 +143,6 @@ header section start
 
 .header .btn {
     display: flex;
-    align-items: center;
     gap: 30px;
 }
 
@@ -182,7 +180,6 @@ banner section start
 }
 
 .banner .txt {
-    text-align: center;
     font-size: 35px;
     color: var(--white);
     margin-bottom: 60px;
@@ -215,21 +212,17 @@ about us section start
 }
 
 .about .row {
-    position: relative;
     display: flex;
-    align-items: center;
     gap: 30px;
 }
 
 .about .box {
-    position: relative;
-    margin-top: 10px;
+    max-width: 337px;
+    height: 480px;
     text-align: center;
     background-color: var(--white);
     border: 1px solid var(--black);
     box-shadow: 5px 0px 9px 5px rgba(20, 20, 20, 0.4);
-    max-width: 337px;
-    height: 453px;
 }
 
 .about .box img {
@@ -380,8 +373,7 @@ footer section start
 
 .footer .row {
     display: flex;;
-    justify-content: center;
-    gap: 200px;
+    justify-content: space-between;
 }
 
 .footer .txt h5 {
@@ -396,7 +388,6 @@ footer section start
 
 .footer .menu ul {
     display: flex;
-    align-items: center;
     flex-direction: column;
     list-style: none;
     gap: 20px;
