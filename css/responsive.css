@@ -51,32 +51,17 @@ services section start
         margin: 0 auto;
     }
 
-    /* ===================
-contact section start
-===================== */
-    .contact .container {
-        /* max-width: 100%; */
-    }
-
-    .contact #text {
-        /* max-width: 270px;
-        height: 50px; */
-    }
-
-    /* /* ===================
-footer section start
-===================== */
-    /* .footer .container {
-        flex-wrap: wrap;
-    }
-
-    .footer .row {
-       flex-direction: column;
-       gap: 30px; 
-    } */
 }
 
 @media (max-width: 480px) {
+
+    /* ===================
+about section start
+===================== */
+    .about .txt-style p {
+        max-width: 100%;
+        margin: 10px auto;
+    }
 
     /* ===================
 contact section start
@@ -101,7 +86,8 @@ footer section start
         flex-direction: column;
         gap: 30px;
     }
-    .footer .menu ul{
-       flex-direction: row;
+
+    .footer .menu ul {
+        flex-direction: row;
     }
 }
