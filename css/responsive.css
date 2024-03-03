@@ -34,7 +34,7 @@ about section start
     }
 
     .about .txt-style p {
-        max-width: 100%;
+        max-width: 50%;
         margin: 10px auto;
     }
 
@@ -55,11 +55,38 @@ services section start
 contact section start
 ===================== */
     .contact .container {
+        /* max-width: 100%; */
+    }
+
+    .contact #text {
+        /* max-width: 270px;
+        height: 50px; */
+    }
+
+    /* /* ===================
+footer section start
+===================== */
+    /* .footer .container {
+        flex-wrap: wrap;
+    }
+
+    .footer .row {
+       flex-direction: column;
+       gap: 30px; 
+    } */
+}
+
+@media (max-width: 480px) {
+
+    /* ===================
+contact section start
+===================== */
+    .contact .container {
         max-width: 100%;
     }
 
     .contact #text {
-        max-width: 270px;
+        max-width: 300px;
         height: 50px;
     }
 
@@ -73,5 +100,8 @@ footer section start
     .footer .row {
         flex-direction: column;
         gap: 30px;
+    }
+    .footer .menu ul{
+       flex-direction: row;
     }
 }

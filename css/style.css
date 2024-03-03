@@ -379,8 +379,7 @@ footer section start
 }
 
 .footer .row {
-    display: flex;
-    align-items: center;
+    display: flex;;
     justify-content: center;
     gap: 200px;
 }
@@ -398,7 +397,6 @@ footer section start
 .footer .menu ul {
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
     list-style: none;
     gap: 20px;
