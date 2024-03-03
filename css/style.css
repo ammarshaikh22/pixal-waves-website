@@ -354,9 +354,11 @@ contact section start
     margin-bottom: 20px;
 }
 
-.contact textarea {
+.contact #text {
     resize: none;
     margin-bottom: 20px;
+    width: 550px;
+    height: 100px;
 }
 
 .contact .btn1 {

@@ -54,8 +54,24 @@ services section start
     /* ===================
 contact section start
 ===================== */
-    .contact  input {
-        width: 200px;
+    .contact .container {
+        max-width: 100%;
     }
-    
+
+    .contact #text {
+        max-width: 270px;
+        height: 50px;
+    }
+
+    /* ===================
+footer section start
+===================== */
+    .footer .container {
+        flex-wrap: wrap;
+    }
+
+    .footer .row {
+        flex-direction: column;
+        gap: 30px;
+    }
 }
