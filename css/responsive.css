@@ -31,6 +31,7 @@ about section start
 
     .about .box {
         max-width: 346px;
+        height: 500px;
     }
 
     .about .txt-style p {
@@ -62,7 +63,11 @@ about section start
         max-width: 100%;
         margin: 10px auto;
     }
-
+    
+    .about .box {
+        max-width: 346px;
+        height: 470px;
+    }
     /* ===================
 contact section start
 ===================== */
