@@ -13,7 +13,8 @@ menu_icon.addEventListener('click', () => {
     cross_icon.classList.add('d-crossbar');
     menu_icon.classList.add('h-menu_icon');
 });
-cross_icon.addEventListener('click', () => {
+cross_icon.addEventListener('click', (e) => {
+    e.preventDefault();
     menu_icon.classList.remove('h-menu_icon');
     menu.classList.remove('d-menu');
     cross_icon.classList.remove('d-crossbar ');
