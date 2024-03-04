@@ -244,6 +244,8 @@ about us section start
 .about .row {
     display: flex;
     gap: 30px;
+    justify-content: center;
+    align-items: center;
 }
 
 .about .box {
