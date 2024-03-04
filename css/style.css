@@ -59,8 +59,8 @@ mobile header section start
 
 .cross-bar {
     position: absolute;
-    top: 25px;
-    right: 40px;
+    top: 15px;
+    right: 30px;
     color: var(--white);
     font-size: 30px;
     display: none;
