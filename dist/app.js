@@ -7,7 +7,7 @@ const menu = document.querySelector('.menu');
 const menu_icon = document.querySelector('.menu-bar');
 const cross_icon = document.querySelector('.cross-bar');
 const all_links = document.querySelectorAll('.links');
-//add event on element
+//add event on elements
 menu_icon.addEventListener('click', () => {
     menu.classList.add('d-menu');
     cross_icon.classList.add('d-crossbar');

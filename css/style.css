@@ -102,6 +102,7 @@ mobile header section start
 .menu-bar.h-menu_icon {
     display: none;
 }
+
 /* ===================
 header section start
 ===================== */
@@ -147,6 +148,33 @@ header section start
 .header .btn {
     display: flex;
     gap: 30px;
+}
+
+.banner .txt h1 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 50px;
+    font-family: Hack, sans-serif;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    letter-spacing: 5px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: shine 5s linear infinite;
+    position: relative;
+}
+
+@keyframes shine {
+    0% {
+        background-position-x: -500%;
+    }
+
+    100% {
+        background-position-x: 500%;
+    }
 }
 
 /* ===================
