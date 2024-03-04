@@ -249,6 +249,8 @@ about us section start
 }
 
 .about .box {
+    position: relative;
+    overflow: hidden;
     max-width: 337px;
     height: 480px;
     text-align: center;
