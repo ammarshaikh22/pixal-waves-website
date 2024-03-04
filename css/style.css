@@ -99,6 +99,9 @@ mobile header section start
     margin-bottom: 0;
 }
 
+.menu-bar.h-menu_icon {
+    display: none;
+}
 /* ===================
 header section start
 ===================== */
@@ -252,11 +255,11 @@ about us section start
     -moz-transform: translateY(-5%);
     -ms-transform: translateY(-5%);
     -o-transform: translateY(-5%);
-    transition: 0.5s ease-in-out;
-    -webkit-transition: 0.5s ease-in-out;
-    -moz-transition: 0.5s ease-in-out;
-    -ms-transition: 0.5s ease-in-out;
-    -o-transition: 0.5s ease-in-out;
+    transition: transform 0.5s linear;
+    -webkit-transition: transform 0.5s linear;
+    -moz-transition: transform 0.5s linear;
+    -ms-transition: transform 0.5s linear;
+    -o-transition: transform 0.5s linear;
 }
 
 /* ===================
@@ -372,7 +375,8 @@ footer section start
 }
 
 .footer .row {
-    display: flex;;
+    display: flex;
+    ;
     justify-content: space-between;
 }
 
