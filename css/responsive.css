@@ -21,17 +21,9 @@ banner section start
     /* ===================
 about section start
 ===================== */
-    .about .container {
-        flex-wrap: wrap;
-    }
-
-    .about .row {
-        flex-direction: column;
-    }
-
     .about .box {
         max-width: 346px;
-        height: 500px;
+        height: 480px;
     }
 
     .about .txt-style p {
@@ -43,8 +35,9 @@ about section start
 services section start
 ===================== */
     .services .row {
-        flex-wrap: wrap;
-        grid-template-columns: repeat(1, 1fr);
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
     }
 
     .services .box {
@@ -59,15 +52,39 @@ services section start
     /* ===================
 about section start
 ===================== */
+    .about .container {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .about .row {
+        flex-direction: column;
+    }
+
     .about .txt-style p {
         max-width: 100%;
         margin: 10px auto;
     }
-    
+
     .about .box {
         max-width: 346px;
         height: 490px;
     }
+
+    /* ===================
+services section start
+===================== */
+    .services .row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+       
+    }
+
+    .services .box {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
     /* ===================
 contact section start
 ===================== */
