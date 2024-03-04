@@ -93,7 +93,7 @@ contact section start
     }
 
     .contact #text {
-        max-width: 300px;
+        max-width: 270px;
         height: 50px;
     }
 
@@ -112,4 +112,5 @@ footer section start
     .footer .menu ul {
         flex-direction: row;
     }
+    
 }
