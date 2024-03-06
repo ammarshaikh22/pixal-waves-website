@@ -1,3 +1,4 @@
+/* for middle version of middle screen */
 @media (max-width: 990px) {
 
     /* ===================
@@ -21,9 +22,12 @@ banner section start
     /* ===================
 about section start
 ===================== */
-    .about .box {
-        max-width: 346px;
-        height: 480px;
+    .about .txt h3 {
+        font-size: 20px;
+    }
+
+    .about .txt p {
+        font-size: 14px;
     }
 
     .about .txt-style p {
@@ -47,11 +51,21 @@ services section start
 
 }
 
+
+/* for mobiles version */
 @media (max-width: 480px) {
 
     /* ===================
 about section start
 ===================== */
+    .about .txt h3 {
+        font-size: 30px;
+    }
+
+    .about .txt p {
+        font-size: 16px;
+    }
+
     .about .container {
         max-width: 80%;
         margin: 0 auto;
@@ -65,11 +79,6 @@ about section start
         max-width: 100%;
         margin: 10px auto;
     }
-
-    /* .about .box {
-        max-width: 346px;
-        height: 490px;
-    } */
 
     /* ===================
 services section start
@@ -112,5 +121,21 @@ footer section start
     .footer .menu ul {
         flex-direction: row;
     }
-    
+
+}
+
+
+/* for big screen or more */
+@media (min-width: 1136px) {
+    .about .txt h3 {
+        font-size: 26px;
+    }
+
+    .about .txt p {
+        font-size: 16px;
+    }
+    .about .box{
+        max-width: 346px;
+        height: 470px;
+    }
 }

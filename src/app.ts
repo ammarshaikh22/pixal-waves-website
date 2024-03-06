@@ -24,4 +24,3 @@ all_links.forEach((elem) => elem.addEventListener('click', () => {
     menu.classList.remove('d-menu')
     menu_icon.addEventListener('click', (e) => e.preventDefault())
 }))
-
