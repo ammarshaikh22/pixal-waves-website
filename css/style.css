@@ -355,7 +355,7 @@ contact section start
 ===================== */
 .contact {
     position: relative;
-    padding: 50px;
+    padding: 60px;
     background-color: var(--black);
 }
 
@@ -409,7 +409,7 @@ footer section start
 ===================== */
 .footer {
     position: relative;
-    padding: 50px 0;
+    padding: 80px 0;
 }
 
 .footer .container {
@@ -454,6 +454,7 @@ last section start
 ===================== */
 .last {
     position: relative;
+    padding: 20px 0;
 }
 
 .last .container {
