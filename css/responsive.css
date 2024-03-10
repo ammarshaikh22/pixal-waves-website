@@ -54,6 +54,9 @@ services section start
 
 /* for mobiles version */
 @media (max-width: 480px) {
+    .banner .txt{
+        margin-top: 150px;
+    }
 
     /* ===================
 about section start

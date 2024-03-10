@@ -150,6 +150,10 @@ header section start
     gap: 30px;
 }
 
+
+/* ===================
+banner section start
+===================== */
 .banner .txt h1 {
     font-weight: 700;
     text-align: center;
@@ -176,9 +180,6 @@ header section start
     }
 }
 
-/* ===================
-banner section start
-===================== */
 .banner {
     position: relative;
     display: flex;
@@ -229,6 +230,7 @@ about us section start
 .about {
     position: relative;
     padding: 50px 0;
+    background-color: var(--new-gray);
 }
 
 .about .container {
@@ -255,6 +257,11 @@ about us section start
     background-color: var(--white);
     border: 1px solid var(--black);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
 }
 
 .about .box img {
@@ -284,11 +291,6 @@ about us section start
     -moz-transform: translateY(-5%);
     -ms-transform: translateY(-5%);
     -o-transform: translateY(-5%);
-    transition: transform 0.5s linear;
-    -webkit-transition: transform 0.5s linear;
-    -moz-transition: transform 0.5s linear;
-    -ms-transition: transform 0.5s linear;
-    -o-transition: transform 0.5s linear;
 }
 
 /* ===================
@@ -297,7 +299,7 @@ services section start
 .services {
     position: relative;
     background-color: var(--gray);
-    padding: 50px 0;
+    padding: 80px 0;
 }
 
 .services .container {
@@ -376,6 +378,7 @@ contact section start
 .contact input {
     width: 270px;
     height: 40px;
+    margin-right: 10px;
     margin-bottom: 20px;
     border: none;
 }
@@ -389,6 +392,16 @@ contact section start
 
 .contact .btn1 {
     color: var(--white);
+}
+
+.contact input::placeholder {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.contact textarea::placeholder {
+    padding: 10px;
+    font-size: 16px;
 }
 
 /* ===================

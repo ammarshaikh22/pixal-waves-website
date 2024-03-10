@@ -3,17 +3,23 @@
     --white: white;
     --blue: #3dc4d9;
     --gray: #dce7e8;
-    --shadow: rgba(255, 255, 255, 0.5)
+    --shadow: rgba(255, 255, 255, 0.5);
+    --new-gray: #cfcfcf;
 }
 
 .btn1 {
-    padding: 10px 20px;
+    padding: 15px 30px;
     background-color: transparent;
     border: 1px solid var(--blue);
     font-size: 16px;
     text-align: center;
     color: var(--black);
     text-decoration: none;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
 }
 
 .btn1:hover {
@@ -23,11 +29,6 @@
     -moz-transform: translateY(-20%);
     -ms-transform: translateY(-20%);
     -o-transform: translateY(-20%);
-    transition: 0.5s;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -o-transition: 0.5s;
 }
 
 
@@ -94,6 +95,11 @@ h1 {
 
 .icon a {
     text-align: center;
+    transition: 0.5S ease-in-out;
+    -webkit-transition: 0.5S ease-in-out;
+    -moz-transition: 0.5S ease-in-out;
+    -ms-transition: 0.5S ease-in-out;
+    -o-transition: 0.5S ease-in-out;
 }
 
 .icon img {
@@ -106,9 +112,4 @@ h1 {
     -moz-transform: translateY(-20%);
     -ms-transform: translateY(-20%);
     -o-transform: translateY(-20%);
-    transition: 0.5s;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -o-transition: 0.5s;
 }
